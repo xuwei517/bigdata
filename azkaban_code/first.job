@@ -1,0 +1,3 @@
+# first.job
+type=command
+command=echo "Hello First!"

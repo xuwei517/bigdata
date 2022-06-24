@@ -1,0 +1,5 @@
+# ods.job
+# 关联ODS层的数据
+type=command
+dependencies=collect
+command=sh /data/soft/warehouse_job/ods_mall_add_partition.sh

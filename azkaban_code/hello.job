@@ -1,0 +1,3 @@
+# hello.job
+type=command
+command=echo "Hello World!"

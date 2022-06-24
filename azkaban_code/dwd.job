@@ -1,0 +1,5 @@
+# dwd.job
+# 生成DWD层的数据
+type=command
+dependencies=ods
+command=sh /data/soft/warehouse_job/dwd_mall_add_partition.sh

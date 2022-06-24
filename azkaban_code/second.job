@@ -1,0 +1,4 @@
+# second.job
+type=command
+dependencies=first
+command=echo "Hello Second!"

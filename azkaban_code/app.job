@@ -1,0 +1,5 @@
+# app.job
+# 生成APP层的数据
+type=command
+dependencies=dwd
+command=sh /data/soft/warehouse_job/app_mall_add_partition.sh

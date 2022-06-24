@@ -1,0 +1,17 @@
+{
+    "settings":{
+    "number_of_shards":5,
+    "number_of_replicas":1
+    },
+    "mappings":{
+    "dynamic":"strict",
+    "_source":{"excludes":["content"]},
+    "properties":{
+      "title":{"type":"text","analyzer":"ik_max_word"},
+      "author":{"type":"text","index":false},
+      "describe":{"type":"text","analyzer":"ik_max_word"},
+      "content":{"type":"text","analyzer":"ik_max_word"},
+      "time":{"type":"date","index":false,"format":"yyyy-MM-dd HH:mm:ss"}
+      }
+    }
+}
